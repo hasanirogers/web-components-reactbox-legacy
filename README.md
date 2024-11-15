@@ -1,1 +1,1 @@
-Reactbox {Legacy} is a sample repo demostrating how to use [Kemet UI Web Components](https://kemet.dev) in a React 18 and older application.
+Reactbox (Legacy) is a integration demo for using [Kemet UI Web Components](https://kemet.dev) in React 18 and older.

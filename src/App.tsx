@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { KemetButton, KemetDrawer } from './WebComponents'; // create a web components file where you store your wrappers
+import { KemetButton, KemetDrawer, KemetIcon } from './WebComponents'; // create a web components file where you store your wrappers
 
 import 'kemet-ui/dist/styles/kemet.base.scss';
 import './App.css'
@@ -15,14 +13,14 @@ function App() {
       <aside slot="navigation">
         <br />
         <button onClick={() => setIsDrawerOpened(false)}>
-          <kemet-icon icon="x-lg" size={24}></kemet-icon>
+          <KemetIcon icon="x-lg" size={24}></KemetIcon>
         </button>
         <br /><br />
         <nav>[Your nav here]</nav>
       </aside>
       <section slot="content">
         <button onClick={() => setIsDrawerOpened(true)}>
-          <kemet-icon icon="list" size={24}></kemet-icon>
+          <KemetIcon icon="list" size={24}></KemetIcon>
         </button>
         <br /><br />
         <div>
@@ -45,7 +43,7 @@ function App() {
             count is {count}
           </KemetButton>
           <p>
-            Edit <code>src/App.tsx</code> and save to test HMR
+            Reactbox (Legacy) is an integration repo on using Web Components in React 18 and older. 
           </p>
         </div>
       </section>
